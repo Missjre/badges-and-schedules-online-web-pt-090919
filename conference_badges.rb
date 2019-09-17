@@ -9,6 +9,11 @@ new_array.push(badge_maker(name))
 end
 
 def assign_rooms(attendees)
-new_array.each do |attendees|
-new_array(assign_rooms(attendees))
+new_array=[]
+count=0
+attendees.each(){|element|}
+count+=1
+new_array.push("Hello,{#element}!You'll be assigned to room #{count}!")
+return new_array
 end
+
