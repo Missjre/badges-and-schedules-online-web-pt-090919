@@ -17,3 +17,4 @@ new_array.push("Hello,{#element}!You'll be assigned to room #{count}!")
 return new_array
 end
 
+def printer
