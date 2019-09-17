@@ -7,3 +7,7 @@ new_array=[]
 attendees.each do |name|
 new_array.push(badge_maker(name))
 end
+
+def assign_rooms(attendees)
+
+end
