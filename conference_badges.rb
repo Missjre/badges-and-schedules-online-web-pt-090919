@@ -9,5 +9,6 @@ new_array.push(badge_maker(name))
 end
 
 def assign_rooms(attendees)
-
+new_array.each do |attendees|
+new_array(assign_rooms(attendees))
 end
